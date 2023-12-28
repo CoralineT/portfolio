@@ -27,8 +27,45 @@ Version: 0.1
 }
 
 
+/* Projets */
+.hestia-blogs article:nth-of-type(6n+1) .category a, .related.products ul li:nth-of-type(6n+1) .category a, .woocommerce.archive .blog-post .products li:nth-of-type(6n+1) .category a, .woocommerce .products li:nth-of-type(6n+1) .category a, .shop-item:nth-of-type(6n+1) .category a, .related-posts div:nth-of-type(6n+1) .category a {
+    display: none;
+}
+
+
+/* Projet */
+.page-header .container, .page-header .author, .page-header .author a, .page-header .hestia-title, .page-header .title, .page-header .description {
+    display: none;
+}
+
+.col-md-8 {
+    width: 100%;
+}
+.col-md-offset-2 {
+    margin-left: 0%;
+}
+
+.wp-block-gallery.has-nested-images.is-cropped figure.wp-block-image:not(#individual-image) a, .wp-block-gallery.has-nested-images.is-cropped figure.wp-block-image:not(#individual-image) img {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column .card {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 2em;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.blog-post .section-blog-info {
+    display: none;
+}
+
+
 /* Footer */
 
 footer.footer.footer-black h5, footer.footer.footer-black h4, footer.footer.footer-black i, footer.footer.footer-black .copyright {
     display: none;
+}
+
+footer.footer.footer-black {
+    background: #595353;
 }
