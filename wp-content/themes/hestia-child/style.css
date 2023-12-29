@@ -27,6 +27,26 @@ Version: 0.1
     top: 12em !important;
 }
 
+@media (max-width: 768px) {
+    .page-header .container .hestia-title, .page-header .container .title {
+        font-size: 5em;
+    }
+
+    .carousel #parallax_move .layer2 {
+        height: 40em !important;
+        width: 31em;
+        top: 25em !important;
+    }
+}
+
+/* Parcours Pro */
+pre {
+    word-break: normal;
+    padding: 2em 2em;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
 
 /* Projets */
 .hestia-blogs article:nth-of-type(6n+1) .category a, .related.products ul li:nth-of-type(6n+1) .category a, .woocommerce.archive .blog-post .products li:nth-of-type(6n+1) .category a, .woocommerce .products li:nth-of-type(6n+1) .category a, .shop-item:nth-of-type(6n+1) .category a, .related-posts div:nth-of-type(6n+1) .category a {
@@ -72,6 +92,10 @@ Version: 0.1
 /* Footer */
 
 footer.footer.footer-black h5, footer.footer.footer-black h4, footer.footer.footer-black i, footer.footer.footer-black .copyright {
+    display: none;
+}
+
+footer.footer.footer-black a {
     display: none;
 }
 
